@@ -1,0 +1,85 @@
+/*Estilos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #f0f8ff; 
+   font-size: 16px;
+   color: #4d5757;
+}
+div{
+    border-radius: 4px ;
+    box-sizing: border-box;
+}
+
+
+.azul{
+    background-color: #08a6d4;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto ;
+    padding: 20px;    
+    display: inline-block;
+
+}
+.amarillo{
+    background-color: #d4bb08;
+    width: 400px;
+    padding: 20px;
+    margin: 5px 0;
+    border-radius: border;   
+    display: inline-block;
+}
+.rosa{
+    background-color: #d40874;
+    width: 39%;
+    padding: 20px;
+    margin: 5px 0;    
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.verde{
+    background-color: #08d496;
+    width: 60%;
+    padding: 100px;
+    margin: 5px 0;
+   
+    display: inline-block
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+}
+/*propiedades flex*/
+.fila{
+    display:flex ;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+/*Comienza los media queri*/
+/*320 px- 720px-1024px-1400px*/
+@media screen and (max-width:720px) {
+   .amarillo{
+    width: 100%;
+   }
+   .rosa{
+    width: 100%;
+   }
+   .img{
+    width: 60%;
+    margin: 0 auto;
+   }
+   h1, h2, h3, h4, h5, h6{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+   }
+}
+/*media screen and (min-width:321px;) (max-width:720px;) {
+    body{
+        background-color: #3c413a;
+    }*/
+
